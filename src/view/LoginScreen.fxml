@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="88.0" prefWidth="166.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginScreen">
+   <children>
+      <VBox prefHeight="88.0" prefWidth="166.0">
+         <children>
+            <Label fx:id="sessionCountry" text="Label" />
+            <TextField fx:id="usernameField" prefHeight="24.0" prefWidth="214.0" />
+            <PasswordField fx:id="passwordField" />
+            <Button fx:id="loginButton" mnemonicParsing="false" onAction="#handleLoginAttempt" prefHeight="24.0" prefWidth="170.0" text="Button" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

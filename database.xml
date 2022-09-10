@@ -1,0 +1,8 @@
+<?xml version = "1.0"?>
+<database>
+    <server>127.0.0.1</server>
+    <port>3306</port>
+    <name>client_schedule</name>
+    <user>sqlUser</user>
+    <password>Passw0rd!</password>
+</database>
