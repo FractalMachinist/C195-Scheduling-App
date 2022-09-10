@@ -8,7 +8,7 @@ Written using
 - JavaFX-SDK-11.0.2
 
 # Summary
-This program was written as a class project to provide an effective frontend UI to a pre-existing customer database. The program is written with JavaFX and a MySQL backend. The feature I enjoyed writing most was the ['Dependable' base class](/src/model/Dependable.java) ([documented here](TMP_LINK)), which ensures the various Observable states in the application are proactively (rather than passively) up to date with respect to a live database connection.
+This program was written as a class project to provide an effective frontend UI to a pre-existing customer database. The program is written with JavaFX and a MySQL backend. The feature I enjoyed writing most was the ['Dependable' base class](/src/model/Dependable.java) ([documented here]([TMP_LINK](https://fractalmachini.st/C195-Scheduling-App/model/Dependable.html))), which ensures the various Observable states in the application are proactively (rather than passively) up to date with respect to a live database connection.
 
 # USAGE
 These instructions were written with a class evaluator in mind, based on the assumption of a configured database and runtime environment.
